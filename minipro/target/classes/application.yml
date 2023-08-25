@@ -1,0 +1,25 @@
+server:
+    port: 8080
+spring:
+    datasource:
+        driverClassName: org.h2.Driver
+        password: password
+        url: jdbc:h2:mem:testdb
+        username: sa
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
+    mvc:
+        pathmatch:
+            matching-strategy: ant-path-matcher
+
+
+plan-api:
+    messages:
+        planSaveSuccess: Plan Saved Successfully.
+        planSaveFail: Plan Save Failed.
+        planUpdateSuccess: Plan Updated Successfully.
+        planUpdateFail: Plan Update Failed.
+        planDeleteSuccess: Plan Deteded Successfully.
+        planDeleteFail: Plan Delete Failed.
+        planStatusChange: Plan Status Changed Successfully.
+        planStatusChangeFail: Plan Status Change Failed.

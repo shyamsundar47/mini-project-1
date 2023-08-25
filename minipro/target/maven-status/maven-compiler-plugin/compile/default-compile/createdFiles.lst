@@ -1,0 +1,11 @@
+com\minipro\minipro\controller\PlanRestController.class
+com\minipro\minipro\service\serviceImpl\PlanServiceImpl.class
+com\minipro\minipro\repository\PlanCategoryRepo.class
+com\minipro\minipro\config\SwaggerConfig.class
+com\minipro\minipro\repository\PlanRepo.class
+com\minipro\minipro\model\Plan.class
+com\minipro\minipro\constant\AppConstants.class
+com\minipro\minipro\properties\AppProperties.class
+com\minipro\minipro\MiniproApplication.class
+com\minipro\minipro\service\PlanService.class
+com\minipro\minipro\model\PlanCategory.class
